@@ -1,5 +1,5 @@
-.execName{background: #e5f505;
-    border: #2a03da 2px solid;
+.execName{background: #FFCB05;
+    border: #00274C 2px solid;
     padding: 20px 0;
     border-radius: 50px;
     text-align: center;
@@ -11,9 +11,22 @@
         flex-wrap: wrap;
         column-gap: 3rem;
         margin: 2%;}
+.honky .exec:nth-child(2){display: none;} 
 .exec{justify-content: center;
-    justify-items: center;}
+    justify-items: center;
+text-align: center;;}
 .end{margin-bottom: 1em;}
+.start{margin-top:1em}
+.skip{font-size: 150%;}
+.skip a{color: #00274C;}
+#rules li:nth-child(2n), #FAQ li:nth-child(2n){color: #00274C;}
+#rules li:nth-child(2n+1), #FAQ li:nth-child(2n+1){color: #FFCB05;
+background-color: #00274C;}
+button{font-size: 300%;
+    color:#00274C;
+background-color: #FFCB05;
+border-radius: 25%;
+margin-bottom: 2rem;}
 
 @-webkit-keyframes spin{
     from {
@@ -49,13 +62,13 @@
     border: 2px solid black;
 }
 
-.nav_item a{color: blue;
+.nav_item a{color: #00274C;
 font-size: 3em;}
 .active a{text-decoration: none;
 font-size: 3em;}
 
 
-.execPic{border: #2a03da 2px solid;
+.execPic{border: #00274C 2px solid;
     margin: auto;
     width: 100%;
     height: 40rem;}
@@ -66,7 +79,8 @@ font-size: 3em;}
 .subhead{font-size: 250%;}
 p{font-size: 200%;}
 
-#skip .infodiv{margin: 5rem 5rem 5rem 0;}
+.infodiv{margin: 5rem 0 5rem 0;}
+#meeting{margin: 5rem 5rem 5rem 0}
 #eboard{text-align: center;
 margin-top: 4%;}
 
@@ -77,6 +91,10 @@ body{background-color: antiquewhite;}
 grid-template-columns:2% 1fr 1fr 2%;
 justify-items: center;}
 .container *{grid-column: 2/4;}
+
+footer{position: relative;
+    bottom: -5rem;
+}
 
 @media(min-width: 800px){
 .honky,.execs{
@@ -98,11 +116,13 @@ box-sizing: border-box;}
     box-sizing: border-box;
     flex-direction: row;
     column-gap: 2rem;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;}
 
 #logo{
     height: 20rem;
+    }
+.honky .exec:nth-child(2){display: block;} 
 }
 @media(min-width: 1200px){
     .skip{font-size: 300%;}
@@ -116,7 +136,10 @@ box-sizing: border-box;}
     .container h3{grid-column: 1/6;}
     #logo{
         width: 40rem;
-        height: 20rem;
+        height: 20rem;}
+    .nav_links{justify-content: space-around;
+    }
 }
-@media(prefers-reduced-motion) {#logo, #logo-text{animation: none;}
+@media(prefers-reduced-motion){#logo, #logo-text{
+    animation: none;}
 }
