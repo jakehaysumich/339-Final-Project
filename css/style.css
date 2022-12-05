@@ -1,11 +1,13 @@
 *{font-family: Tahoma, Calibri, Helvetica;}
-
+.execdesc{margin: 0 2% 2rem 2%}
 .execName{background: #FFCB05;
     border: #00274C 2px solid;
     padding: 20px 0;
     border-radius: 50px;
     text-align: center;
-    font-size: 3em;}
+    box-sizing: border-box;
+    font-size: 2.5em;
+    color: #00274C;}
 .execs, .honky{display: flex;
         justify-content: center;
         align-items:flex-start;
@@ -16,12 +18,13 @@
 .honky .exec:nth-child(2){display: none;} 
 .exec{justify-content: center;
     justify-items: center;
-text-align: center;;}
+text-align: center;
+box-sizing: border-box;}
 .end{margin-bottom: 1em;}
 .start{margin-top:1em}
 .skip{font-size: 150%;}
 .skip a{color: #00274C;
-position: relative;
+    position: relative;
     top: -5rem;
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
@@ -35,8 +38,7 @@ background-color: #00274C;}
 button{font-size: 300%;
 color:#00274C;
 background-color: #FFCB05;
-border-radius: 25%;
-margin-bottom: 2rem;}
+border-radius: 25%;}
 button:focus{color: blueviolet;
 text-decoration: underline;}
 #FAQ a:focus{color: blueviolet;
@@ -120,20 +122,17 @@ footer{position: relative;
 margin-bottom: 16rem;}
 .exec{
     height: 25rem;
-    width: 50%;
-box-sizing: border-box;}
+    width: 50%;}
 .execPic{height: 100%;}
 .skip{font-size: 200%;}
 .container img:nth-child(5n+2){grid-column: 2/3;}
 
 .container img:nth-child(5n+3){grid-column: 3/4;}
 
-.nav_links{display: flex;
-    box-sizing: border-box;
+.nav_links{
     flex-direction: row;
     column-gap: 2rem;
-    justify-content: space-between;
-    flex-wrap: wrap;}
+    justify-content: space-between;}
 
 #logo{
     height: 20rem;
@@ -146,8 +145,7 @@ box-sizing: border-box;}
     .exec{width:33%;}
     .execs .exec{height:50rem}
     .container{display: grid;
-    grid-template-columns:2% 1fr 1fr 1fr 2%;
-    justify-items: center;}
+    grid-template-columns:2% 1fr 1fr 1fr 2%;}
     .container img:nth-child(5n+4){grid-column: 4/5;}    
     .container h3{grid-column: 1/6;}
     .container iframe{grid-column: 1/5;}
