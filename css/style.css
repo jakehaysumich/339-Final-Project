@@ -150,8 +150,8 @@ margin-bottom: 16rem;}
     .container h3{grid-column: 1/6;}
     .container iframe{grid-column: 1/5;}
     #logo{
-        width: 40rem;
-        height: 20rem;}
+        width: 20rem;
+        height: 15rem;}
     .nav_links{justify-content: space-around;
     }
 }
