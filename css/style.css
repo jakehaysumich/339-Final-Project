@@ -35,6 +35,8 @@ box-sizing: border-box;}
 #rules li:nth-child(2n), #FAQ li:nth-child(2n){color: #00274C;}
 #rules li:nth-child(2n+1), #FAQ li:nth-child(2n+1){color: #FFCB05;
 background-color: #00274C;}
+#FAQ h3, #rules h3{font-size: 200%;
+    margin: 0 2%;}
 button{font-size: 300%;
 color:#00274C;
 background-color: #FFCB05;
