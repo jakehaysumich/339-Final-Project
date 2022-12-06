@@ -54,7 +54,7 @@ text-decoration: underline;}
         -webkit-transform: rotateY(-360deg);
       }
     }
-#logo{width : 50%;
+#logo{width : 20rem;
     height: 15rem;
     -webkit-animation: spin 5s 1;
     animation: spin 5s 1;
@@ -97,7 +97,8 @@ font-size: 3em;}
 .subhead{font-size: 250%;}
 p{font-size: 200%;
 margin: 0 2%;}
-iframe{margin: 5% 25%}
+.spotify{
+position: absolute;}
 
 .infodiv{margin: 5rem 0 5rem 0;}
 #meeting{margin: 5rem 5rem 5rem 0}
@@ -151,9 +152,6 @@ margin-bottom: 16rem;}
     .container img:nth-child(5n+4){grid-column: 4/5;}    
     .container h3{grid-column: 1/6;}
     .container iframe{grid-column: 1/5;}
-    #logo{
-        width: 20rem;
-        height: 15rem;}
     .nav_links{justify-content: space-around;
     }
 }
