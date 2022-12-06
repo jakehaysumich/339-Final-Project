@@ -98,7 +98,8 @@ font-size: 3em;}
 p{font-size: 200%;
 margin: 0 2%;}
 .spotify{
-position: absolute;}
+position: absolute;
+margin-top: 3rem;}
 
 .infodiv{margin: 5rem 0 5rem 0;}
 #meeting{margin: 5rem 5rem 5rem 0}
