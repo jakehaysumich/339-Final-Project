@@ -78,6 +78,7 @@ text-decoration: underline;}
     justify-content: space-around;
     flex-wrap: wrap;
     border: 2px solid black;
+    padding-bottom: 5px
 }
 
 .nav_item a{color: #00274C;
